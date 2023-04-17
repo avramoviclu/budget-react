@@ -1,5 +1,8 @@
-import { Container, Stack, Button } from "react-bootstrap";
-import BudgetCard from "./components/BudgetCard";
+import { Container, Stack, Button } from "react-bootstrap"
+import BudgetCard from "./components/BudgetCard"
+import TotalBudgetCard from "./components/TotalBudgetCard"
+import { useState } from "react"
+import { UNCATEGORIZED_BUDGET_ID, useBudgets } from "./contexts/BudgetContext"
 
 function App() {
   return <Container className="my-4">
